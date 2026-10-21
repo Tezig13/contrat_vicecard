@@ -1,0 +1,9 @@
+target
+.anchor
+test-ledger
+.DS_Store
+*-keypair.json
+*.keypair.json
+id.json
+secrets/
+.env*

@@ -1,0 +1,47 @@
+[package]
+name = "vicecards_vault"
+version = "0.1.0"
+description = "VICECARDS reward vault: pump.fun creator fees paid out hourly by cumulative merkle roots"
+edition.workspace = true
+rust-version.workspace = true
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "vicecards_vault"
+
+[features]
+default = []
+cpi = ["no-entrypoint"]
+no-entrypoint = []
+no-log-ix-name = []
+idl-build = ["anchor-lang/idl-build", "anchor-spl/idl-build"]
+anchor-debug = []
+custom-heap = []
+custom-panic = []
+# Tests only: a fixed test key may initialize instead of the real admin (see INITIALIZER).
+test-initializer = []
+
+
+[dependencies]
+anchor-lang = { version = "1.2.1", features = ["init-if-needed"] }
+anchor-spl = "1.2.1"
+solana-sha256-hasher = "3.1.0"
+
+[dev-dependencies]
+litesvm = "0.10.0"
+serde_json = "1"
+bs58 = "0.5"
+solana-message = "3.0.1"
+solana-transaction = "3.0.2"
+solana-signer = "3.0.0"
+solana-keypair = "3.0.1"
+solana-program-pack = "3.0.0"
+solana-account = "3.0.0"
+solana-clock = "3.0.0"
+spl-token-interface = "2.0.0"
+spl-token-2022-interface = "2.1.0"
+spl-associated-token-account-interface = "2.0.0"
+
+
+[lints.rust]
+unexpected_cfgs = { level = "warn", check-cfg = ['cfg(target_os, values("solana"))'] }

@@ -1,0 +1,48 @@
+{
+  "root": "0eb59fc7d466ac50c956ae725f15bfd4c793ada7b7c389a9ca3cf29a9ad3bb27",
+  "entries": [
+    {
+      "wallet": "11111111111111111111111111111112",
+      "cumulative": "1000000",
+      "proof": [
+        "1b0dcc1422d876d5c2d904e6059c33cc82c91019d3ad57b9b919d6e0a240b5fe",
+        "9de6218882719083b168886e57e24585ce60a190b1d5615cdde8a3bde66c31a1",
+        "66917b95a15e67feb32041331927b5add024d9caaf65c270eb846f1ed01f5c5c"
+      ]
+    },
+    {
+      "wallet": "So11111111111111111111111111111111111111112",
+      "cumulative": "2000000",
+      "proof": [
+        "fde0bc1bdea5e48ab331b933fe10b721b992e153a42a2a8a9db72719847d354f",
+        "9de6218882719083b168886e57e24585ce60a190b1d5615cdde8a3bde66c31a1",
+        "66917b95a15e67feb32041331927b5add024d9caaf65c270eb846f1ed01f5c5c"
+      ]
+    },
+    {
+      "wallet": "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo",
+      "cumulative": "3000000",
+      "proof": [
+        "eb07b57983422d31da5828ec16d78f3810e2b83de2ca12b82210c5ebf8c6b42d",
+        "18215a6165a071d050ee561952581028bfe319821ad21e3027423d437042d8c1",
+        "66917b95a15e67feb32041331927b5add024d9caaf65c270eb846f1ed01f5c5c"
+      ]
+    },
+    {
+      "wallet": "D1MRTECLfpTN6tNUTeAXwZ8t8FZ2WNzPSf9K5CDukweE",
+      "cumulative": "4000000",
+      "proof": [
+        "4eab7962b48f533c6c79fcc6e87d62531b62aa00c67136fa87119ca285125e2e"
+      ]
+    },
+    {
+      "wallet": "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL",
+      "cumulative": "5000000",
+      "proof": [
+        "d0c89cf213061fb406350d7276a68e2dde4f8ba3da19f29fdea4e613f795678e",
+        "18215a6165a071d050ee561952581028bfe319821ad21e3027423d437042d8c1",
+        "66917b95a15e67feb32041331927b5add024d9caaf65c270eb846f1ed01f5c5c"
+      ]
+    }
+  ]
+}
